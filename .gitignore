@@ -22,6 +22,10 @@ audio-input/*.ogg
 
 # Output files (user data)
 output/
+# Ensure any transcript or summary files are ignored wherever they are 
+*_transcript.txt
+*_summary.txt
+*_focused_summary.txt
 
 # Log files
 *.log
