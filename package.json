@@ -1,0 +1,34 @@
+{
+  "name": "audio-transcribe-summarize",
+  "version": "1.0.0",
+  "description": "Transcribes a long audio file using AssemblyAI and summarizes it using Anthropic Claude.",
+  "main": "transcribeSummarize.js",
+  "type": "module",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "assemblyai",
+    "anthropic",
+    "claude",
+    "transcription",
+    "summarization",
+    "audio",
+    "ffmpeg"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.20.8",
+    "assemblyai": "^4.5.0",
+    "boxen": "^7.1.1",
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "figlet": "^1.7.0",
+    "fluent-ffmpeg": "^2.1.3",
+    "inquirer": "^9.2.12",
+    "openai": "^4.47.1",
+    "ora": "^8.0.1"
+  }
+} 
